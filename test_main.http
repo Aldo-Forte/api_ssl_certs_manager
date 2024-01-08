@@ -1,0 +1,21 @@
+# Test your FastAPI endpoints
+
+DELETE http://127.0.0.1:8000/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "cert_id" : "1234567"
+}
+
+###
+
+POST http://127.0.0.1:8000/
+Accept: application/json
+Content-Type: application/json
+
+{
+  "cert_id" : "1234567"
+}
+
+###
